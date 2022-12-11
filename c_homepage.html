@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" co ntent="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="c_homepageee.css">
+    <title>LTO Appointment Setter</title>
+</head>
+<body>
+    <section class="main">
+        <nav>
+            <img src="LTO.png">
+        
+            <div class="navbar" id="navLinks">
+                <ul>
+                    <li><a href="c_homepage.html">HOME</a></li>
+                    <li><a href="c_about.html">ABOUT</a></li> 
+                    <li><a href="c_contacts.html">CONTACT</a></li>
+                <!--    <li><a href="c_appointstatus.html">APPOINTMENT STATUS</a></li> -->
+                <!--    <li><a href="c_profile.html">PROFILE <i class="fa-solid fa-caret-down"></i> -->
+                        </a>
+                    <li id="logout">LOG-OUT</li>
+                </ul>
+
+            </div>
+        </nav>
+    </section>
+    <div class="grid-container">
+        <div class="grid-item grid-item-1">
+                <h1> Transaction</h1>
+        
+                <!---Transaction requirments part--->
+        
+                <div class="appointment-col">
+                    <div class ="transact license_rr">
+                        <button id="licenserr">
+                            <h3>License Registration</h3>
+                        </button>
+                    </div>
+                        
+                            <!--
+                        <div class ="transact motve_rr">
+                            <button id="motverr">  
+                                <h3>Motor Vehicle Registration</h3>
+                            </button>
+                        </div>
+                        -->
+                </div>
+        </div>
+        <!--
+        <div class="grid-item grid-item-2">
+            <p>For Notification</p>
+        </div>
+        <div class="grid-item grid-item-3">
+            <p>For Appointment</p>
+        </div>  
+        <div class="grid-item grid-item-4">
+            <p>For Announcement</p>
+        </div>
+        -->
+    </div>
+
+    <script>
+       licenserr.addEventListener('click', (e) => {
+
+        //localStorage.setItem("Transaction", "License");
+
+        window.location = "c_formL.html";
+        });
+
+    </script>
+
+</body>
+</html>

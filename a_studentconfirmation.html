@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+    <head>
+    <meta charset="utf-8">
+    <title>LTO Online Appoinment</title>
+    <link rel="stylesheet" href="a_studentconfirmation.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+      <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    </head>
+    <body>
+      <div class="main">
+        
+        <h1>Forgot Password?</h1>
+          
+        <form>
+          <div class="email">
+              <input type="email" id="email" name="email" placeholder="E-mail">
+          </div>
+
+
+            <div class="container">
+              <button type="submit" class="btn" onclick="openPopup()">Submit</button>
+            
+              <div class ="popup" id="popup" >
+                <h2>Thank you!</h2>
+                <p>has sent an email</p>
+                <button type="button" onclick="closePopup()" >OK</button>
+              </div>
+            
+          </div>
+            
+            <script>
+              
+              let popup = document.getElementById("popup");
+
+              function openPopup(){
+                popup.classList.add( "open-popup");
+        
+              }
+              function closePopup(){
+                popup.classList.remove( "open-popup");
+        
+              }
+            </script>
+          
+    
+
+      <script type="module" src="../src/  c_login.js"></script>
+      
+    </body>

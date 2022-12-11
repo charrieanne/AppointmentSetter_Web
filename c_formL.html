@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/8ec04d5e4f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="c_formL.css">
+    <title>LTO Appointment Setter</title>
+</head>
+<body>
+   <div class="main" id="form">
+
+         <header>LTO Appointment Setter</header>
+            <form>
+               <div class="title">
+                       License Classification Applied for 
+               </div>
+                  <select id="selectText1" onchange="changeStatus()" >
+                     <option value="s">Select:</option>
+                     <option value="sp">Student-Driver's Permit (SP)</option>
+                    <!-- <option value="dlnp">Driver's License Non-Professional (DL Non-Prof)</option>
+                     <option value="dlp">Driver's License Professional (DL Prof)</option>
+                     <option value="cl">Conductor's License (CL)</option> -->
+                  </select>
+
+               <div class="title">
+                      Type of Application
+               </div>
+                  <select id="selectText2" onchange="changeStatus()">
+                   <option value="s">Select:</option>
+                   <option value="n">NEW</option>
+                  </select>
+            </form>
+
+               <div id="hide">
+                  <div class="label" id="sp1n">
+                     <table class="lisc_table">
+                        <thead>
+                            <td colspan="2">Student-Driver's Permit (NEW)</td>
+                        </thead>
+                        
+                          <tr>
+                            <td>PSA/Birth Certificate</td>
+                            <td> <input type="file" id="myFile" multiple size="30" accept=".jpg, .jpeg, .png" onchange="myFunction()"> </td>
+                          </tr>
+                          <tr>
+                            <td>Medical Certificate from Accredited Medical Clinic:</td>
+                            <td> <input type="file" id="myFile" multiple size="30" accept=".jpg, .jpeg, .png" onchange="myFunction()"> </td>
+                          </tr>
+                          <tr>
+                           <td>Certificate of Completion of the Theorotical Driving Course: </td>
+                           <td> <input type="file" id="myFile" multiple size="30" accept=".jpg, .jpeg, .png" onchange="myFunction()"> </td>
+                         </tr>
+                         <tr>
+                          <td>Parent's Consent for Costumers Ages 16 & 17: </td>
+                          <td> <input type="file" id="myFile" multiple size="30" accept=".jpg, .jpeg, .png" onchange="myFunction()"> </td>
+                        </tr>
+                      </table> 
+                  </div>   
+               </div>       
+
+       <div class="btns">
+         <a href="c_homepage.html" class="back1">Back</a>
+         <button type="submit" class="next1" onclick="openPopup()">Next</button>
+       </div>
+               
+   </div>
+            <div class ="popup_message" id="popup" >
+              <h2>NOTICE</h2>
+              <p>Please make sure that the submitted files are true and correct.</p>
+
+              <div class="buttons">
+                  <a href="#" type="button" class="cancelBTN" onclick="closePopup()">CANCEL</a>
+                  <a href="#" type="button" class="conBTN" onclick="nextBTN()">CONTINUE</a>
+              </div>
+              
+            </div>
+   
+    <script src="c_form.js"></script>
+</body>
+</html>

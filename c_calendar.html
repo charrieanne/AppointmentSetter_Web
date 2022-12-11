@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="c_calendar.css">
+    <title>Land Transportation Office Appointment Setter</title>
+</head>
+<body>
+<div>
+  <div class="instruc"> 
+    <p>Choose your desire date of Appointment.</p>
+  </div>
+
+    <div id="container"> 
+
+        <div id="header">
+          <div id="monthDisplay"></div>
+         <div>
+          <button id="backButton"><i class="fas fa-angle-left prev"></i></button>
+          <button id="nextButton"><i class="fas fa-angle-right next"></i></button> 
+        </div>
+    </div> 
+        <div id="weekdays">
+          <div>Sunday</div>
+          <div>Monday</div>
+          <div>Tuesday</div>
+          <div>Wednesday</div>
+          <div>Thursday</div>
+          <div>Friday</div>
+          <div>Saturday</div>
+        </div>
+  
+        <div id="calendar"></div>
+      </div>
+
+
+      <div id="newEventModal">
+        <p>Please choose the time of your appointment.</p>
+        <div class="time-container">
+          <input type="radio" id="time" name="ampm" value="08:30 AM"/>
+          <label for="am">08:30 AM</label><br>
+          
+          <input type="radio" id="time" name="ampm" value="08:50 AM"/>
+          <label for="am">08:50 AM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="09:10 AM"/>
+          <label for="am">09:10 AM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="09:30 AM"/>
+          <label for="am">09:30 AM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="09:50 AM"/>
+          <label for="am">09:50 AM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="10:10 AM"/>
+          <label for="am">10:10 AM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="10:30 AM"/>
+          <label for="am">10:30 AM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="10:50 AM"/>
+          <label for="am">10:50 AM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="11:10 AM"/>
+          <label for="am">11:10 AM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="11:30 AM"/>
+          <label for="am">11:30 AM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="11:50 AM"/>
+          <label for="am">11:50 PM</label><br>
+      
+          <!--pm-->
+          <input type="radio" id="time" name="ampm" value="12:10 PM"/>
+          <label for="pm">12:10 PM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="12:30 PM"/>
+          <label for="pm">12:30 PM</label><br>
+          
+          <input type="radio" id="time" name="ampm" value="12:50 PM"/>
+          <label for="pm">12:50 PM </label><br>
+      
+          <input type="radio" id="time" name="ampm" value="01:10 PM"/>
+          <label for="pm">01:10 PM </label><br>
+      
+          <input type="radio" id="time" name="ampm" value="01:30 PM" />
+          <label for="pm">01:30 PM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="01:50 PM"/>
+          <label for="pm">01:50 PM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="02:10 PM"/>
+          <label for="pm">02:10 PM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="02:30 PM"/>
+          <label for="pm">02:30 PM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="02:50 PM"/>
+          <label for="pm">02:50 PM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="03:10 PM"/>
+          <label for="pm">03:10 PM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="03:30 PM"/>
+          <label for="pm">03:30 PM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="03:50 PM"/>
+          <label for="pm">03:50 PM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="04:10 PM"/>
+          <label for="pm">04:10 PM</label><br>
+      
+          <input type="radio" id="time" name="ampm" value="04:30 PM"/>
+          <label for="pm">04:30 PM</label><br>  
+      </div>
+  
+        <button id="saveButton">Done</button>
+        <button id="cancelButton">Cancel</button>
+      </div>
+
+      <a href="c_formL.html"><button class="back">Back</button></a>
+      
+  </div>
+
+      <script src="c_calendar.js"></script>
+</body>
+</html>

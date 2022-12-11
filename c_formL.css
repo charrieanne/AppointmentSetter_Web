@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  font-family: 'Poppins', sans-serif;
+}
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 130vh;
+  overflow-y: auto;
+  background-image:url("../image/bgforweb.png");
+}
+.main{
+  width: 600px;
+  height: 770px;
+  background: #fff;
+  text-align: center;
+  border-radius: 10px;
+  padding: 50px 35px 10px 35px;
+}
+.main header{
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 30px 0;
+}
+.main #hide .lisc_table{
+  position: absolute;
+  top: 380px;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  min-width: 100px;
+  overflow: hidden; 
+  font-size: 0.9em;
+  min-width: 100px;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+.lisc_table thead tr {
+  background-color: #032d89;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+.lisc_table th,
+.lisc_table td {
+  padding: 12px 15px;
+  border: 1px solid #032d89;
+  width: 250px;   
+}
+.main form{
+    padding: 20px;
+}
+form .title{
+  margin: 5px;
+  text-align: left;
+  font-size: 25px;
+  font-weight: 500;
+}
+.btns{
+  padding-top: 370px;
+}
+.next1 , .back1{
+  border: none;
+  background:  #032d89;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  padding: 20px 45px;
+  text-decoration: none;
+  
+}
+.btn_upload{
+  width: 100px;
+}
+.next1{
+    margin-left: 170px;
+}
+select{
+  width: 100%;
+  padding: 15px 20px;
+  border: none;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  background-color: rgb(216, 211, 211);
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+}
+#hide{
+  visibility: hidden;
+}
+.popup_message{
+  background-color: #032d89;
+  user-select: none;
+  text-align: center;
+  align-items: center;
+  padding: 40px;
+  border: 1px solid #b3b3b3;
+  box-shadow: 0px 5px 10px rgba(112, 13, 225, 221);
+  color: #ffffff;
+  border-radius: 20px;
+  visibility: hidden;
+  transition: transform 0.4s, top 0.4s;
+}
+.popup_message p{
+  margin-top: 25px;
+}
+
+.popup_message .buttons{
+  margin: 40px 0 0 0;
+}
+.buttons .cancelBTN, .buttons .conBTN{
+  width: 100px;
+  height: 40px;
+  background-color: #b3b3b3;
+  color: black;
+  font-size: 14px;
+  padding: 10px 13px;
+  border: 1px solid #808080;
+  border-radius: 10px;
+  cursor: pointer;
+  margin: 10px;
+  text-decoration: none;
+}
+#popup{
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.open-popup{
+  visibility: visible;
+  top: 50%;
+  transform: translate(-50%, -50% scale(1));
+}
+
