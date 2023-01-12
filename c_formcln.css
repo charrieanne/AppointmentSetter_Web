@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background-image:url("../img/bgforweb.png");
+}
+.main{
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  padding: 25px;
+  background: white;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
+}
+.main2{
+  
+  border-radius: 8px;
+  padding: 25px;
+}
+.btnUp a{ 
+  width: 500px;
+}
+.main header{
+  text-align: center;
+  font-size: 35px;
+  font-weight: 600;
+  margin: 0 0 30px 0;
+}
+.title{
+  margin: 5px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
+}
+.clheading{
+  text-align: left;
+  margin: 10px 10px;
+}
+  .main .lisc_table{
+  position: relative;
+  top: 10px;
+  border-collapse: collapse;
+  font-size: 0.9em;
+  min-width: 600px;
+  overflow: hidden; 
+  font-size: 0.9em;
+
+}
+.lisc_table thead tr {
+  background-color: #032d89;
+  color: #ffffff;
+  text-align: center;
+  font-weight: bold;
+}
+.lisc_table th,
+.lisc_table td {
+ 
+  padding: 12px 15px;
+  border: 1px solid #032d89;
+  width: 250px;   
+}
+/* .btn_upload{ 
+  width: 100px;
+}*/
+.next1{
+  margin-left: 180px;
+}
+select{
+  cursor: pointer;
+  width: 100%;
+  padding: 15px  20px;
+  border: none;
+  margin-bottom: 5px;
+  box-sizing: border-box;
+  background-color: rgb(216, 211, 211);
+  border-radius: 5px;
+}
+
+.next1 , .back1{
+  width: 30%;
+  height: 50px;
+  border: none;
+  background:  #032d89;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-top: 40px;
+}
+.back1{
+  margin-left: 40px;
+}
+.clheading {
+  text-align: center;
+  height: 70px;
+  margin: 10px 10px;
+  padding: 30px 10px 30px 40px; 
+}
+.disclaimer{
+  margin-top: 30px;
+}
