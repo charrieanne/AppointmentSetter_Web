@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="eng" dir="ltr">
+    <head>
+    <meta charset="utf-8">
+    <title>LTO Online Appoinment</title>
+    <link rel="stylesheet" href="a_login.css">
+    </head>
+    <body>
+      <div class="main">
+        <!-- <img src="../img/Land_Transportation_Office.svg.png" alt="No Image"> -->
+        <h1>Land Transportation Office</h1>
+
+        <form>
+
+            <div class="email">
+                <input type="text" id="email" placeholder="Email / Username"  required>
+            </div>
+            <div class="password">
+                <input type="password" id="password" placeholder="Password" required>
+            </div>
+            <div class="showp">
+              <input type="checkbox" onclick="showPwrd()">Show Password
+          </div>
+            <div class="fp"><a href="../file/a_requestresetpass.html" target="_self">Forgot Password?</a></div>
+
+        </form>
+        
+          <button id="login">
+          Log-in
+        </button>
+
+        
+        <div class="rgtr">
+          
+        </div>
+      </div>
+
+      <script>
+        function showPwrd() {
+                var x = document.getElementById("password");
+                if (x.type === "password") {
+                    x.type = "text";
+                } else {
+                    x.type = "password";
+                }
+        }
+        </script>
+      <script type="module" src="a_login.js"></script>
+    </body>
+    </html>

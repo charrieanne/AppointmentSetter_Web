@@ -1,0 +1,188 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    height: 100vh;
+    overflow-y: auto;
+    background-image:url("../img/bgforweb.png");
+}
+
+.main{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 560px;
+    background-color: white;
+    border-radius: 10px;
+}
+.main form{
+    margin-left: 30px;
+}
+h1{
+    font-size: 30px;
+    padding: 10px;
+    margin: 5px;
+    text-align: center;
+    border-bottom: 1px solid gray;
+}
+.info{
+    padding: 3px;
+    margin: 3px;
+}
+.info input{
+    width: 400px;
+    padding: 0 5px 0 5px;
+    height: 40px;
+    font-size: 16px;
+    background: none;
+    margin-top: 10px;
+    margin-left: 40px;
+    outline: none;
+}
+button{
+    height: 50px;
+    width: 80%;
+    border: 1px solid;
+    background-color: rgb(19, 42, 172);
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+    margin: 20px 0 0 60px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px; 
+    margin-bottom: 30px;
+}
+.rgtr{
+    text-align: center;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    padding-top: -5px;
+    cursor: pointer;
+}
+.tc{
+    text-align: center;
+    margin: 15px 0 0 0;
+    padding: 0 30px 0 30px;
+}
+.empp label{
+    width: 400px;
+    height: 40px;
+    font-size: 16px;
+    margin-top: 40px;
+    margin-left: 30px; 
+}
+.emp{
+    width: 400px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 80px;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+}
+.emp input[value="1"]{
+    margin-left: 60px;
+}
+.inf.success input{
+    border-color: rgb(10, 185, 10);
+}
+.inf.error input{
+    border-color: #c50c31;
+}
+.inf .error{
+    color: #c50c31;
+    font-size: 14px;
+    font-weight: 30px;
+    height: 13px;
+    margin-left: 40px;
+}
+.inf #error1{
+    display:none;
+    color: #c50c31;
+    font-size: 14px;
+    font-weight: 30px;
+    height: 13px;
+    margin-left: 40px;
+    width: 400px;
+}
+.info .infc{
+    margin-top: 60px;
+}
+.showp input[type="checkbox"]{
+    margin-top: 60px;
+    width: 15px;
+    height: 15px;
+}
+.inf #lowercase{
+    display:none;
+    color: #c50c31;
+    font-size: 14px;
+    font-weight: 30px;
+    height: 13px;
+    margin-left: 40px;
+    width: 400px;
+    margin-top: -10px;
+}
+.inf #uppercase{
+    display:none;
+    color: #c50c31;
+    font-size: 14px;
+    font-weight: 30px;
+    height: 13px;
+    margin-left: 40px;
+    width: 400px;
+    margin-top: -10px;
+}
+.inf #num{
+    display:none;
+    color: #c50c31;
+    font-size: 14px;
+    font-weight: 30px;
+    height: 13px;
+    margin-left: 40px;
+    width: 400px;
+    margin-top: -10px;
+}
+.inf #spclchrctr{
+    display:none;
+    color: #c50c31;
+    font-size: 14px;
+    font-weight: 30px;
+    height: 13px;
+    margin-left: 40px;
+    width: 400px;
+}
+.inf #length{
+    display:none;
+    color: #c50c31;
+    font-size: 14px;
+    font-weight: 30px;
+    height: 13px;
+    margin-left: 40px;
+    width: 400px;
+    margin-top: -10px;
+}
+.inf #match{
+    display:none;
+    color: #c50c31;
+    font-size: 14px;
+    font-weight: 30px;
+    height: 13px;
+    margin-left: 40px;
+    width: 400px;
+    margin-top: -10px;
+}
+.hme{
+    text-align: center;
+    margin: 20px 0 20px 0;
+}
